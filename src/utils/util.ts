@@ -1,4 +1,4 @@
-export const amharicDays = {
+export const Days = {
     "Monday": "Segno",
     "Tuesday": "Makisegno",
     "Wednesday": "Erob",
@@ -8,7 +8,7 @@ export const amharicDays = {
     "Sunday": "Ehud"
 }
 
-export const amharicMonths = {
+export const Months = {
     "September": "Meskerem",
     "October": "Tikimt",
     "November": "Hidar",
@@ -22,4 +22,11 @@ export const amharicMonths = {
     "July": "Hamle",
     "August": "Nehase",
     "The 13th Month": "Pagume"
+}
+
+export const Seasons = {
+    "Spring": "Tseday",
+    "Summer": "Bega",
+    "Autumn": "Belg",
+    "Winter": "Kiremt"
 }
