@@ -1,17 +1,13 @@
 <script setup lang="ts">
 import Days from './components/Days.vue'
 import Months from './components/Months.vue'
+import Seasons from './components/Seasons.vue'
 </script>
 
 <template>
   <Days />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
   <Months />
+  <Seasons />
 </template>
 
 <style>
