@@ -1,4 +1,4 @@
-export const Days = {
+export const Day = {
     "Monday": "Segno",
     "Tuesday": "Makisegno",
     "Wednesday": "Erob",
@@ -8,7 +8,7 @@ export const Days = {
     "Sunday": "Ehud"
 }
 
-export const Months = {
+export const Month = {
     "September": "Meskerem",
     "October": "Tikimt",
     "November": "Hidar",
@@ -24,9 +24,38 @@ export const Months = {
     "The 13th Month": "Pagume"
 }
 
-export const Seasons = {
+export const Season = {
     "Spring": "Tseday",
     "Summer": "Bega",
     "Autumn": "Belg",
     "Winter": "Kiremt"
+}
+
+export const Digits = {
+    "Zero": "Zero",
+    "One": "And",
+    "Two": "Hulet",
+    "Three": "Sost",
+    "Four": "Arat",
+    "Five": "Amust",
+    "Six": "Sidist",
+    "Seven": "Sebat",
+    "Eight": "Simint",
+    "Nine": "Zetegn",
+    "Ten": "Asur"
+}
+
+export const Tens = {
+    "Ten": "Asur",
+    "Twenty": "Haya",
+    "Thirty": "Selasa",
+    "Forty": "Arba",
+    "Fifty": "Hamsa",
+    "Sixty": "Silsa",
+    "Seventy": "Seba",
+    "Eighty": "Semanya",
+    "Ninety": "Zetena",
+    "Hundred": "Meto",
+    "Thousand": "Shih",
+    "Million": "Miliyon",
 }
