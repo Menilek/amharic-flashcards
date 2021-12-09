@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import Carousel from './components/Carousel.vue'
-import { Day, Month, Season } from './utils/util'
+import { Day, Month, Season, Digits, Tens } from './utils/util'
 
 </script>
 
@@ -11,6 +11,10 @@ import { Day, Month, Season } from './utils/util'
   <Carousel title="Months" :items="Month" />
 
   <Carousel title="Seasons" :items="Season" />
+
+  <Carousel title="0-10" :items="Digits" />
+
+  <Carousel title="10-1000000" :items="Tens" />
 </template>
 
 <style>
