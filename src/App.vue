@@ -1,13 +1,16 @@
 <script setup lang="ts">
-import Days from './components/Days.vue'
-import Months from './components/Months.vue'
-import Seasons from './components/Seasons.vue'
+
+import Carousel from './components/Carousel.vue'
+import { Day, Month, Season } from './utils/util'
+
 </script>
 
 <template>
-  <Days />
-  <Months />
-  <Seasons />
+  <Carousel title="Days" :items="Day" />
+
+  <Carousel title="Months" :items="Month" />
+
+  <Carousel title="Seasons" :items="Season" />
 </template>
 
 <style>

@@ -1,17 +1,27 @@
 <script setup lang="ts">
-
+import { defineProps } from "vue";
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 import '../assets/carousel.css';
-import { Months } from '../utils/util'
+
+const props = defineProps({
+    title: {
+        required: true,
+        type: String
+    },
+    items: {
+        required: true,
+        type: Object
+    }
+})
 
 </script>
 
 <template>
-    <h2>Months</h2>
+    <h2>{{ props.title }}</h2>
     <Carousel :itemsToShow="1.5" :wrapAround="true">
-        <Slide v-for="month of Months" :key="month">
-            <div class="carousel__item">{{ month }}</div>
+        <Slide v-for="item of props.items" :key="item">
+            <div class="carousel__item">{{ item }}</div>
         </Slide>
 
         <template #addons>
