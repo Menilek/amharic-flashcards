@@ -1,3 +1,5 @@
+import { DigitsType, NumbersType } from './types'
+
 export const Days = {
     "Monday": "Segno",
     "Tuesday": "Makisegno",
@@ -31,31 +33,35 @@ export const Seasons = {
     "Winter": "Kiremt"
 }
 
-export const Digits = {
-    "Zero": "Zero",
-    "One": "And",
-    "Two": "Hulet",
-    "Three": "Sost",
-    "Four": "Arat",
-    "Five": "Amust",
-    "Six": "Sidist",
-    "Seven": "Sebat",
-    "Eight": "Simint",
-    "Nine": "Zetegn",
-    "Ten": "Asur"
+export const Digits: DigitsType = {
+    Zero: "Zero",
+    One: "And",
+    Two: "Hulet",
+    Three: "Sost",
+    Four: "Arat",
+    Five: "Amust",
+    Six: "Sidist",
+    Seven: "Sebat",
+    Eight: "Simint",
+    Nine: "Zetegn",
+    Ten: "Asur"
 }
 
-export const Numbers = {
-    "Ten": "Asur",
-    "Twenty": "Haya",
-    "Thirty": "Selasa",
-    "Forty": "Arba",
-    "Fifty": "Hamsa",
-    "Sixty": "Silsa",
-    "Seventy": "Seba",
-    "Eighty": "Semanya",
-    "Ninety": "Zetena",
-    "Hundred": "Meto",
-    "Thousand": "Shih",
-    "Million": "Miliyon",
+export const Numbers: NumbersType = {
+    Ten: "Asur",
+    Twenty: "Haya",
+    Thirty: "Selasa",
+    Forty: "Arba",
+    Fifty: "Hamsa",
+    Sixty: "Silsa",
+    Seventy: "Seba",
+    Eighty: "Semanya",
+    Ninety: "Zetena",
+    Hundred: "Meto",
+    Thousand: "Shih",
+    Million: "Miliyon",
+}
+
+export const findKey = (obj: any, value: string) => {
+    return Object.keys(obj).find(key => obj[key] === value);
 }
