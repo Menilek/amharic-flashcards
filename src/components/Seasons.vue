@@ -7,9 +7,9 @@ import { Seasons } from '../utils/util'
 
 <template>
     <h2>Seasons</h2>
-    <Carousel :itemsToShow="1.5" :wrapAround="true">
+    <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="season of Seasons" :key="season">
-            <div class="carousel__item">{{ season }}</div>
+            <div class="carousel__item yellow">{{ season }}</div>
         </Slide>
 
         <template #addons>

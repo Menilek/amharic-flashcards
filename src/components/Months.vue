@@ -7,9 +7,9 @@ import { Months } from '../utils/util'
 
 <template>
     <h2>Months</h2>
-    <Carousel :itemsToShow="1.5" :wrapAround="true">
+    <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="month of Months" :key="month">
-            <div class="carousel__item">{{ month }}</div>
+            <div class="carousel__item green">{{ month }}</div>
         </Slide>
 
         <template #addons>

@@ -7,9 +7,9 @@ import { Numbers } from '../utils/util'
 
 <template>
     <h2>10-1000000</h2>
-    <Carousel :itemsToShow="1.5" :wrapAround="true">
+    <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="number of Numbers" :key="number">
-            <div class="carousel__item">{{ number }}</div>
+            <div class="carousel__item red">{{ number }}</div>
         </Slide>
 
         <template #addons>

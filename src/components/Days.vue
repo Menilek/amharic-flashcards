@@ -7,9 +7,9 @@ import { Days } from '../utils/util'
 
 <template>
     <h2>Days</h2>
-    <Carousel :itemsToShow="1.5" :wrapAround="true">
+    <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="day of Days" :key="day">
-            <div class="carousel__item">{{ day }}</div>
+            <div class="carousel__item red">{{ day }}</div>
         </Slide>
 
         <template #addons>

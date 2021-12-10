@@ -27,3 +27,17 @@
     justify-content: center;
     align-items: center;
   }
+.red {
+  background-color: red;
+  color:white;
+}
+
+.green {
+  background-color: green;
+  color:white;
+}
+
+.yellow {
+  background-color: yellow;
+  color:black;
+}
