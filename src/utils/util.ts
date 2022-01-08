@@ -1,13 +1,13 @@
 import { DigitsType, NumbersType } from './types'
 
 export const Days = {
-    "Monday": "Segno",
-    "Tuesday": "Makisegno",
-    "Wednesday": "Erob",
-    "Thursday": "Hamus",
-    "Friday": "Arb",
-    "Saturday": "Kidame",
-    "Sunday": "Ehud"
+    Monday: "Segno",
+    Tuesday: "Makisegno",
+    Wednesday: "Erob",
+    Thursday: "Hamus",
+    Friday: "Arb",
+    Saturday: "Kidame",
+    Sunday: "Ehud"
 }
 
 export const Months = {
