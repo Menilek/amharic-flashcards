@@ -113,7 +113,7 @@ const getIsWordRevealed = (month: string) => {
     <h2>Months</h2>
     <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="month of Months" :key="month">
-            <div class="carousel__item" @click="toggleReveal(month)">{{!getIsWordRevealed(month) ? month : findKey(Months, month) }}</div>
+            <div class="carousel__item green" @click="toggleReveal(month)">{{!getIsWordRevealed(month) ? month : findKey(Months, month) }}</div>
         </Slide>
 
         <template #addons>

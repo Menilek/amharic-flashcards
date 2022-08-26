@@ -40,8 +40,8 @@
 
 /* .carousel__next .carousel__prev .carousel__pagination-button .carousel__pagination-button--active {
   background-color: red !important;
-  color: white !important; */
-}
+  color: white !important;
+} */
 
 .green {
   background-color: #60ad39 !important;
@@ -51,4 +51,9 @@
 .yellow {
   background-color: yellow;
   color: black;
+}
+
+.pink {
+  background-color: black;
+  color: white;
 }
