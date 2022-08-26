@@ -106,7 +106,7 @@ const getIsWordRevealed = (digit: string) => {
     <h2>10-1000000</h2>
     <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="number of Numbers" :key="number">
-            <div class="carousel__item pink" @click="toggleReveal(number)">{{!getIsWordRevealed(number) ? number : findKey(Numbers, number) }}</div>
+            <div class="carousel__item black" @click="toggleReveal(number)">{{!getIsWordRevealed(number) ? number : findKey(Numbers, number) }}</div>
         </Slide>
 
         <template #addons>
