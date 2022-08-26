@@ -1,4 +1,4 @@
-import { DigitsType, NumbersType } from './types'
+import { DigitsType, NumbersType, SeasonsType, MonthsType } from './types'
 
 export const Days = {
     Monday: "Segno",
@@ -10,7 +10,7 @@ export const Days = {
     Sunday: "Ehud"
 }
 
-export const Months = {
+export const Months: MonthsType = {
     "September": "Meskerem",
     "October": "Tikimt",
     "November": "Hidar",
@@ -26,7 +26,7 @@ export const Months = {
     "The 13th Month": "Pagume"
 }
 
-export const Seasons = {
+export const Seasons: SeasonsType = {
     "Spring": "Tseday",
     "Summer": "Bega",
     "Autumn": "Belg",

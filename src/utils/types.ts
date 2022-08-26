@@ -26,3 +26,26 @@ export interface NumbersType {
     Thousand: string;
     Million: string;
 }
+
+export interface SeasonsType {
+    Spring: string;
+    Summer: string;
+    Autumn: string;
+    Winter: string;
+}
+
+export interface MonthsType {
+    September: string;
+    October: string;
+    November: string;
+    December: string;
+    January: string;
+    February: string;
+    March: string;
+    April: string;
+    May: string;
+    June: string;
+    July: string;
+    August: string;
+    "The 13th Month": string;
+}
