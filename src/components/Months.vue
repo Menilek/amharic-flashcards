@@ -5,7 +5,6 @@ import 'vue3-carousel/dist/carousel.css';
 import '../assets/carousel.css';
 import { Months, findKey } from '../utils/util'
 
-
 const septemberRevealed = ref(false);
 const octoberRevealed = ref(false);
 const novemberRevealed = ref(false);
@@ -109,11 +108,12 @@ const getIsWordRevealed = (month: string) => {
 }
 
 </script>
+
 <template>
     <h2>Months</h2>
     <Carousel :itemsToShow="2" :wrapAround="true">
         <Slide v-for="month of Months" :key="month">
-            <div class="carousel__item green" @click="toggleReveal(month)">{{!getIsWordRevealed(month) ? month : findKey(Months, month) }}</div>
+            <div class="carousel__item" @click="toggleReveal(month)">{{!getIsWordRevealed(month) ? month : findKey(Months, month) }}</div>
         </Slide>
 
         <template #addons>

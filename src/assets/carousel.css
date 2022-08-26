@@ -44,8 +44,8 @@
 }
 
 .green {
-  background-color: green;
-  color: white;
+  background-color: #60ad39 !important;
+  color: white !important;
 }
 
 .yellow {

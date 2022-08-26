@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
 import '../assets/carousel.css';
-import { Days } from '../utils/util'
+import { Days, findKey } from '../utils/util'
 
 const MondayRevealed = ref(false);
 const TuesdayRevealed = ref(false);
@@ -12,10 +12,6 @@ const ThursdayRevealed = ref(false);
 const FridayRevealed = ref(false);
 const SaturdayRevealed = ref(false);
 const SundayRevealed = ref(false);
-
-const findKey = (obj: any, value: string) => {
-    return Object.keys(obj).find(key => obj[key] === value);
-}
 
 const toggle = (day: string) => {
     const dayMap = {

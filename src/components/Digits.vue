@@ -85,6 +85,7 @@ const getIsWordRevealed = (digit: string) => {
             break;
     }
 }
+
 </script>
 
 <template>
